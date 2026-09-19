@@ -7,8 +7,16 @@ This project classifies a free-text symptom description into a disease label usi
 - `Symptom2Disease.ipynb`: step-by-step exploratory notebook with explanations, preprocessing, training, evaluation, and attention visualization.
 - `symptom2disease.py`: standalone command-line version of the core training and prediction workflow.
 - `Symptom2Disease.csv`: labeled symptom descriptions.
-- `glove.6B.100d.txt`: GloVe 100-dimensional word vectors.
+- `glove.6B.100d.txt`: GloVe 100-dimensional word vectors downloaded separately.
 - `best_model.pt`: saved model weights when available.
+
+## Download GloVe embeddings
+
+The GloVe embedding file is not included in this GitHub repository because it is too large to upload directly. Download the GloVe embeddings from the official Stanford website:
+
+[Stanford GloVe: Global Vectors for Word Representation](https://nlp.stanford.edu/projects/glove/)
+
+Download the `glove.6B.zip` archive, extract `glove.6B.100d.txt`, and place that file in the project directory next to `symptom2disease.py` and `Symptom2Disease.csv`.
 
 ## Setup
 
